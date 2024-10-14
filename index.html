@@ -1,0 +1,106 @@
+<html>
+ <head>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #8e6e5c, #bfa58d);
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            background-color: #bfa58d;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .header .date {
+            font-size: 14px;
+            color: white;
+        }
+        .header .icon {
+            margin-left: auto;
+            color: white;
+        }
+        .image-container {
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            position: relative;
+        }
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .footer {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+        .footer .message {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            background-color: #000;
+            color: white;
+            text-align: center;
+        }
+        .footer .icons {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        .footer .icons i {
+            color: white;
+            margin-left: 10px;
+        }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <img alt="Profile picture" height="40" src="WhatsApp Image 2024-10-14 at 00.57.43_1e86d55d.jpg" width="40"/>
+    <div class="date">
+        2024
+    </div>
+    <i class="fas fa-ellipsis-v icon">
+    </i>
+   </div>
+   <div class="image-container">
+    <img alt="Group of people posing for a photo" height="225" src="WhatsApp Image 2024-10-14 at 04.37.27_6ce343b6.jpg" width="400"/>
+   </div>
+   <div class="footer">
+    <div class="message">
+     Kirim pesan
+    </div>
+    <div class="icons">
+     <i class="fas fa-square">
+     </i>
+     <i class="fas fa-heart">
+     </i>
+     <i class="fas fa-paper-plane">
+     </i>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
